@@ -8,6 +8,7 @@ import { LoginPageComponent } from './pages/account/login-page/login-page.compon
 import { ResetPasswordPageComponent } from './pages/account/reset-password-page/reset-password-page.component';
 import { ProductsPageComponent } from './store/products-page/products-page.component';
 import { PetsPageComponent } from './pages/account/pets-page/pets-page.component';
+import { FramePageComponent } from './pages/account/master/frame.page';
 
 
 @NgModule({
@@ -17,7 +18,7 @@ import { PetsPageComponent } from './pages/account/pets-page/pets-page.component
     LoginPageComponent,
     ResetPasswordPageComponent,
     LoginPageComponent,
- 
+    FramePageComponent,
     ProductsPageComponent,
     PetsPageComponent,
     ProductsPageComponent
